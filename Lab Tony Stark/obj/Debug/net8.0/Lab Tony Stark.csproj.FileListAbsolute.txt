@@ -1,0 +1,14 @@
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\bin\Debug\net8.0\Lab Tony Stark.exe
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\bin\Debug\net8.0\Lab Tony Stark.deps.json
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\bin\Debug\net8.0\Lab Tony Stark.runtimeconfig.json
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\bin\Debug\net8.0\Lab Tony Stark.dll
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\bin\Debug\net8.0\Lab Tony Stark.pdb
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\Lab Tony Stark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\Lab Tony Stark.AssemblyInfoInputs.cache
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\Lab Tony Stark.AssemblyInfo.cs
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\Lab Tony Stark.csproj.CoreCompileInputs.cache
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\Lab Tony Stark.dll
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\refint\Lab Tony Stark.dll
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\Lab Tony Stark.pdb
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\Lab Tony Stark.genruntimeconfig.cache
+C:\Users\madu\Desktop\Laboratorio 2 progra\ejerc 1 clase 3\Programación\Lab Tony Stark\Lab Tony Stark\obj\Debug\net8.0\ref\Lab Tony Stark.dll

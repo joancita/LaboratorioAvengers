@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\madu\\Desktop\\Laboratorio 2 progra\\ejerc 1 clase 3\\Programaci\u00F3n\\Lab Tony Stark\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B32DE-0DEC-4857-BB8B-8CA369928963}|Lab Tony Stark\\Lab Tony Stark.csproj|c:\\users\\madu\\desktop\\laboratorio 2 progra\\ejerc 1 clase 3\\programaci\u00F3n\\lab tony stark\\lab tony stark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B32DE-0DEC-4857-BB8B-8CA369928963}|Lab Tony Stark\\Lab Tony Stark.csproj|solutionrelative:lab tony stark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\madu\\Desktop\\Laboratorio 2 progra\\ejerc 1 clase 3\\Programaci\u00F3n\\Lab Tony Stark\\Lab Tony Stark\\Program.cs",
+              "RelativeDocumentMoniker": "Lab Tony Stark\\Program.cs",
+              "ToolTip": "C:\\Users\\madu\\Desktop\\Laboratorio 2 progra\\ejerc 1 clase 3\\Programaci\u00F3n\\Lab Tony Stark\\Lab Tony Stark\\Program.cs",
+              "RelativeToolTip": "Lab Tony Stark\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T03:33:46.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

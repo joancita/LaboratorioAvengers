@@ -9,7 +9,7 @@ class Program
         MostrarMenu();
     }
 
-    // 📌 Función para crear el archivo inventos.txt con contenido inicial
+    //Función para crear el archivo inventos.txt con contenido inicial
     static void CrearArchivo()
     {
         string ruta = "inventos.txt"; // Nombre del archivo
@@ -25,7 +25,7 @@ class Program
         Console.WriteLine("Archivo 'inventos.txt' creado exitosamente.");
     }
 
-    // 📌 Función para agregar un invento sin sobrescribir el archivo
+    //Función para agregar un invento sin sobrescribir el archivo
     static void AgregarInvento(string invento)
     {
         string ruta = "inventos.txt";
@@ -39,7 +39,7 @@ class Program
         Console.WriteLine("Invento agregado exitosamente.");
     }
 
-    // 📌 Función para leer el archivo línea por línea
+    //Función para leer el archivo línea por línea
     static void LeerLineaPorLinea()
     {
         string ruta = "inventos.txt"; // Nombre del archivo
@@ -61,7 +61,7 @@ class Program
         }
     }
 
-    // 📌 Función para leer todo el contenido del archivo
+    //Función para leer todo el contenido del archivo
     static void LeerTodoElTexto()
     {
         string ruta = "inventos.txt"; // Nombre del archivo
@@ -78,8 +78,32 @@ class Program
             Console.WriteLine("Error: No se encontró el archivo inventos.txt"); // Mensaje si el archivo no existe
         }
     }
+    static void LeerArchivoConExcepciones()
+ {
+     string ruta = "inventos.txt"; // Nombre del archivo
 
-    // 📌 Función para copiar un archivo
+     try
+     {
+         // Intento leer el archivo completo
+         string contenido = File.ReadAllText(ruta);
+         Console.WriteLine("Lectura exitosa:");
+         Console.WriteLine(contenido);
+     }
+     catch (FileNotFoundException) // Capturo el error si el archivo no existe
+     {
+         Console.WriteLine("Error: El archivo inventos.txt no existe. ¡Ultron debe haberlo borrado!");
+     }
+     catch (UnauthorizedAccessException) // Capturo el error si no tengo permisos
+     {
+         Console.WriteLine("Error: No tienes permisos para leer el archivo.");
+     }
+     catch (Exception ex) // Capturo cualquier otro error desconocido
+     {
+         Console.WriteLine($"Error inesperado: {ex.Message}");
+     }
+ }
+
+    //Función para copiar un archivo
     static void CopiarArchivo(string origen, string destino)
     {
         if (File.Exists(origen))
@@ -99,7 +123,7 @@ class Program
         }
     }
 
-    // 📌 Función para mover un archivo
+    //Función para mover un archivo
     static void MoverArchivo(string origen, string destino)
     {
         if (File.Exists(origen))
@@ -119,7 +143,7 @@ class Program
         }
     }
 
-    // 📌 Función para crear una nueva carpeta
+    //Función para crear una nueva carpeta
     static void CrearCarpeta(string nombreCarpeta)
     {
         if (!Directory.Exists(nombreCarpeta))
@@ -133,7 +157,7 @@ class Program
         }
     }
 
-    // 📌 Función para listar archivos en una carpeta
+    //Función para listar archivos en una carpeta
     static void ListarArchivos(string ruta)
     {
         if (Directory.Exists(ruta))
@@ -211,22 +235,25 @@ class Program
                         LeerTodoElTexto();
                         break;
                     case 5:
-                        CopiarArchivo("inventos.txt", "Backup/inventos_backup.txt");
+                        LeerArchivoConExcepciones();
                         break;
                     case 6:
-                        MoverArchivo("inventos.txt", "ArchivosClasificados/inventos.txt");
+                        CopiarArchivo("inventos.txt", "Backup/inventos_backup.txt");
                         break;
                     case 7:
+                        MoverArchivo("inventos.txt", "ArchivosClasificados/inventos.txt");
+                        break;
+                    case 8:
                         Console.Write("Ingrese el nombre de la carpeta a crear: ");
                         string nuevaCarpeta = Console.ReadLine();
                         CrearCarpeta(nuevaCarpeta);
                         break;
-                    case 8:
+                    case 9:
                         Console.Write("Ingrese la ruta de la carpeta a listar: ");
                         string ruta = Console.ReadLine();
                         ListarArchivos(ruta);
                         break;
-                    case 9:
+                    case 10:
                         Console.WriteLine("Saliendo del programa...");
                         break;
                     default:
